@@ -71,7 +71,7 @@ function Login(): React.ReactElement {
         />
       </Box>
 
-      <Link href={'/reset'} className="link">
+      <Link href={'/login'} className="link">
         Forget Password
       </Link>
 
@@ -79,7 +79,7 @@ function Login(): React.ReactElement {
         Login
       </Button>
 
-      <Link href={'/register'} className="link">
+      <Link href={'/login'} className="link">
         Dont have an account? Register
       </Link>
     </Box>
