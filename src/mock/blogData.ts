@@ -1,6 +1,6 @@
 import ReactImg from '../../public/react.png'; // Replace with your actual image path
 
-export const blogData = Array.from({ length: 10 }, (_, index) => ({
+export const blogData = Array.from({ length: 5 }, (_, index) => ({
   id: `${index + 1}`,
   title: `Blog Post Title ${index + 1}`,
   description: `This is a brief description of blog post ${index + 1}. It highlights the essence of the content.`,
